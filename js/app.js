@@ -20,13 +20,13 @@ async function getMovies(url) {
     const data = await res.json()
 
     showMovies(data.results)
+    console.log(data.results)
 }
 
 function showMovies(movies) {
     main.innerHTML = '';
     movies.forEach(movie => {
         const { title, poster_path, vote_average, overview } = movie;
-        console.log(poster_path)
         const movieEl = document.createElement('div')
         movieEl.classList.add('movie');
         movieEl.innerHTML = `

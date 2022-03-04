@@ -103,7 +103,7 @@ main {
 
       span {
         background-color: $darkpurple;
-        padding: .25rem 0.5rem;
+        padding: .26rem 0.7rem;
         border-radius: 3px;
         font-weight: bold;
         -webkit-border-radius: 3px;
@@ -128,7 +128,7 @@ main {
     .overview {
       font-size: 15px;
       background-color: $white;
-      padding: 2rem;
+      padding: 3rem;
       position: absolute;
       left: 0;
       bottom: 0;
@@ -139,12 +139,12 @@ main {
       -moz-transform: translateY(101%);
       -ms-transform: translateY(101%);
       -o-transform: translateY(101%);
-      transition: transform 0.3s ease;
-      -webkit-transition: transform 0.3s ease;
-      -moz-transition: transform 0.3s ease;
-      -ms-transition: transform 0.3s ease;
-      -o-transition: transform 0.3s ease;
-    }
+      transition: transform 0.5s ease;
+      -webkit-transition: transform 0.5s ease;
+      -moz-transition: transform 0.5s ease;
+      -ms-transition: transform 0.5s ease;
+      -o-transition: transform 0.5s ease;
+}
 
     &:hover .overview {
       transform: translateY(0);
